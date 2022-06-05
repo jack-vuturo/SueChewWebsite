@@ -38,7 +38,7 @@
                 
                 </nav>
                 <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-                <a href="#" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"> Join the Team </a>
+                <a href="#" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"> Get Involved </a>
                 <a href="#" class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-red-800 hover:bg-red-900"> Donate </a>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                 To: "opacity-0 scale-95"
             -->
             <div class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-            <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+            <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50 hidden">
                 <div class="pt-5 pb-6 px-5">
                 <div class="flex items-center justify-between">
                     <div>
@@ -141,18 +141,18 @@
             </div>
         </div>
         <!-- Hero Image -->
-        <div class="relative w-full max-h-screen overflow-hidden bg-black">
+        <div class="relative w-full max-h-screen bg-black">
             <div class="absolute text-white text-right top-1/4 left-0 flex flex-col p-10 w-full z-30">
                 <h1 class="text-9xl font-semibold mb-2">Sue</h1>
                 <h1 class="text-9xl font-semibold mb-5">Chew</h1>
                 <h2 class="text-lg font-bold">A proven leader for Idaho's District 17.</h2>
             </div>
-            <img class="opacity-80 top-16 left-0 z-20 object-cover object-center" src="assets/header.jpeg" alt="">
+            <img class="opacity-80 bottom-0 left-0 z-20 object-cover max-h-screen w-full object-center" src="assets/header.jpeg" alt="">
         </div>
         <!-- About Sue -->
-        <div class="flex p-10">
+        <div class="flex p-10 flex-col sm:flex-row">
             <img class="overflow-hidden w-full h-auto mr-10 aspect-auto rounded-lg object-cover" src="assets/pharm.jpg" alt="">
-            <div class="w-3/5 lg:w-5/6">
+            <div class="w-full md:w-3/5 lg:w-full">
                 <h3 class="text-2xl font-semibold mb-2">About Sue</h3>
                 <p class="text-lg">
                     As a pharmacist trained in geriatrics,  Rep Chew, made sure the importance of investing in our seniors now to accommodate the growing 
@@ -161,7 +161,21 @@
                     This Appropriation for Idaho Commission on Aging cobbled federal and state funds for a training specialist, and $720,000 in state revenues 
                     to support caregivers of individuals with Alzheimer's and related dementia.
                 </p>
+                <div class="flex flex-row h-full ">
+                    <div class="flex w-12 h-12 rounded-full items-center content-center bg-red-800 text-white hover:text-amber-400 hover:bg-red-900">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto" width="34" height="34" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <rect x="4" y="4" width="16" height="16" rx="4" />
+                            <circle cx="12" cy="12" r="3" />
+                            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                        </svg>
+                    </div>
+                </div>
             </div>
+        </div>
+        <!-- Disclosure -->
+        <div class="w-fit font-bold border-2 border-black mx-auto my-10 p-5">
+            <p>Paid for by Sue Chew for Idaho | Treasurer Mike Li</p>
         </div>
     </body>
 </html>
